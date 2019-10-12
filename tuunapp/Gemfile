@@ -33,6 +33,11 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# ----------- ADDED GEMS -----------
+
+gem 'haml-rails', "~> 2.0" # 10/12/19, CLB, using .haml instead of .erb
+gem 'bootstrap', '~> 4.3.1' # 10/12/19, CLB, for bootstrap styling
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 

@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+$primary_theme: #782BA9;
+$secondary_theme: #121212;
+$third_theme: #000000;
+
+@import "bootstrap";
+
+.navbar {
+  background-color: $primary_theme !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.nav-item {
+  color: #fff !important;
+}
+
+html {
+  background-color: $secondary_theme;
+}
+
+.container {
+  margin: 20px;
+}
