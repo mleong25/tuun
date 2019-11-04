@@ -15,7 +15,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-*NOTE:* If you do not have npm installed, these scripts will not work. Install npm from the terminal with `npm i`
+*NOTE:* If you do not have npm installed, these scripts will not work. Install npm from the terminal with `brew install node` with HomeBrew or [Install Node / npm](https://www.npmjs.com/get-npm)
+
+Run `npm i` to install / update dependencies for the project prior to running.
 
 In the project directory, you can run:
 
